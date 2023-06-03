@@ -1,0 +1,370 @@
+.first-section {
+    width: 100%;
+    height: 4300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+
+    &__upper-part {
+        height: 768px;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+// =======================================================
+
+.upper-part {
+    &__main {
+        margin-top: 100px;
+        height: 668px;
+    }
+}
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    width: 1160px;
+    position: absolute;
+    position: fixed;
+    background-color: #1A1024;
+    z-index: 10;
+    &__header {
+        width: 1160px;
+    }
+}
+.header {
+    width: 1160px;
+    height: 100px;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    &__logo {
+        width: 57px;
+        height: 46px;
+        margin-right: 30px;
+    }
+    &__name {
+        width: 113px;
+        height: 21px;
+        margin-right: 720px;
+    }
+    &__menu {
+        width: 185px;
+        min-width: 185px;
+        height: 245px;
+        padding-top: 80px;
+        padding-right: 30px;
+        background-color: rgba(190, 173, 255, 0.1);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-top: 143px;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 15px;
+        color: rgba(243, 240, 255, 0.8);
+        transition-duration: 0.2s;
+    }
+    &__menu_changed {
+        width: 63px;
+        height: 63px;
+        min-width: 63px;
+        top: 15px;
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 120px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.menu {
+    &__phoneLogo {
+        display: none;
+    }
+    &__burger {
+        display: none;
+    }
+    &__burger_changed {
+        display: block;
+        width: 32px;
+    }
+    &__hypers {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__hypers__hide {
+        display: none;
+    }
+    &__hypers a {
+        outline: none;
+        text-decoration: none;
+        color: rgba(243, 240, 255, 0.8);
+        font-size: 16px;
+    }
+}
+
+.burger {
+    &__burgerLine {
+        display: flex;
+    }
+}
+.main {
+    &__sectionOne {
+        font-size: 36px;
+        font-family: 'Orbitron', sans-serif;
+        margin-top: 180px;
+        line-height: 45.16px;
+        padding-left: 3px;
+        font-weight: 700;
+        margin-bottom: 47px;
+        color: #F0F2FF;
+        width: 644px;
+    }
+    &__sectionTwo {
+        font-family: 'Gilroy-Light', sans-serif;
+        color: #D4C9FD;
+        font-size: 20.2px;
+        line-height: 26px;
+        word-break: break-all;
+        width: 1100px;
+        padding-right: 35px;
+    }
+}
+
+.fisrt-section {
+    &__lower-part {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+.lower-part {
+    &__slide-from-left {
+        position: absolute;
+        left: -500px;
+        width: 652px;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 35px;
+        color: rgba(240, 242, 255, 1);
+        line-height: 95px;
+        transition-duration: 4s;
+    }
+    &__slide-from-left-to-center {
+        left: 15px;
+    }
+    &__slide-from-right {
+        position: absolute;
+        width: 900px;
+        top: 53px;
+        right: -1000px;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 35px;
+        color: rgba(240, 242, 255, 1);
+        transition-duration: 4s;
+        line-height: 95px;
+    }
+    &__slide-from-right-to-center {
+        right: 0px;
+    }
+    &__additional-phone-slide {
+        display: none;
+    }
+}
+
+// =======================================================
+@media screen and (max-width:1160px) {
+    .first-section {
+        height: 6238px;
+        &__upper-part {
+            height: 650px;
+        }
+    }
+    .header-container {
+        width: 320px;
+    }
+    .header {
+        width: 320px;
+        height: 100px;
+        padding: 0px 15px 0px 15px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        &__logo {
+            width: 37px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        &__name {
+            width: 76px;
+            height: 15px;
+            margin-right: 100px;
+        }
+        &__menu {
+            width: 63px;
+            height: 63px;
+            min-width: 63px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-left: 0;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__menu_mobile {
+            height: 430px;
+            width: 320px;
+            min-width: 320px;
+            border-radius: 30px;
+            position: fixed;
+            top: 0px;
+            margin: 0 auto;
+            margin-left: -18px;
+            padding-top: 50px;
+            background-color: rgba(190, 173, 255, 0.1);
+            backdrop-filter: blur(5px);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+    .menu {
+        &__phoneLogo {
+            display: none;
+        }
+        &__phoneLogo_opened {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        &__burger {
+            display: block;
+        }
+
+        &__burger_changed {
+            display: block;
+            width: 32px;
+        }
+
+        &__hypers {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            display: none;
+        }
+
+        &__hypers_opened {
+            display: flex;
+        }
+
+        &__closeArrow {
+            width: 20px;
+            height: 20px;
+            margin-top: 70px;
+            border-left: 2px solid white;
+            border-top: 2px solid white;
+            transform: rotate(45deg);
+            display: none;
+        }
+
+        &__closeArrow_opened {
+            display: block;
+        }
+
+        &__hypers a {
+            outline: none;
+            text-decoration: none;
+            color: rgba(243, 240, 255, 0.8);
+            font-size: 16px;
+        }
+    }
+
+    .phoneLogo {
+
+        &__logo {
+            height: 50px;
+            width: 62px;
+            margin-bottom: 11px;
+        }
+
+        &__name {
+            width: 63px;
+            height: 12px;
+        }
+    }
+
+    .burger {
+
+        &__burgerLine {
+            display: flex;
+        }
+    }
+
+    .main {
+
+        &__sectionOne {
+            width: 320px;
+            height: 100px;
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+
+        &__sectionTwo {
+            font-size: 16px;
+            line-height: 19px;
+            width: 320px;
+            height: 152px;
+            margin-bottom: 35px;
+            text-align: left;
+            line-break: normal;
+            word-break: keep-all;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    .lower-part {
+
+        &__slide-from-left {
+            font-size: 18px;
+            line-height: 50px;
+        }
+
+        &__slide-from-right {
+            font-size: 18px;
+            width: 245px;
+            height: 50px;
+            overflow: hidden;
+            line-height: 50px;
+        }
+
+        &__additional-phone-slide {
+            display: block;
+            width: 250px;
+            height: 50px;
+            position: absolute;
+            top: 100px;
+            left: -300px;
+            font-family: "Gilroy-Light", sans-serif;
+            font-size: 18px;
+            color: rgb(240, 242, 255);
+            line-height: 50px;
+            transition-duration: 4s;
+        }
+
+        &__additional-phone-slide-to-center {
+            left: 10px;
+        }
+    }
+}

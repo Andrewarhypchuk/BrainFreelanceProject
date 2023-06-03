@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold?styles=20878");
+@import "./CSSParts/FirstSection/first__section.css";
+@import "./CSSParts/Footer/footer.css";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #1A1024;
+  color: white;
+  overflow-x: hidden;
+  position: relative;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.content__wrapper {
+  width: 1160px;
+  height: 7363px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.wrapper {
+  max-width: 1160px;
+  max-height: 3617px;
+  width: 1160px;
+  margin: 0 auto;
+  background-color: #1A1024;
+  display: flex;
+  flex-direction: column;
+}
+
+.zIndexminusOne {
+  z-index: -1;
+}
+
+.content {
+  background-color: #1A1024;
+  opacity: 0.6;
+  width: 90%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 20px;
+  font-family: "Gilroy-Light", sans-serif;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0em;
+  margin-left: 50px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  width: 100px;
+  margin-right: 1em;
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1160px) {
+  body {
+    margin: 0 auto;
+    width: 375px;
+    min-width: 375px;
+    height: 5630px;
+  }
+  .wrapper {
+    width: 321px;
+    max-height: 5600px;
+    height: 5600px;
+  }
+  .content {
+    font-size: 14px;
+    flex-direction: column;
+    width: 375px;
+    height: 120px;
+    margin: 0 auto;
+  }
+}
+.none {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

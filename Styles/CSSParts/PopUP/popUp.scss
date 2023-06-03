@@ -1,0 +1,322 @@
+.popUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(35, 35, 36, 0.4);
+  top: 0px;
+  left: 0px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  z-index: 20;
+  position: relative;
+  position: fixed;
+  padding: 30px;
+}
+.popUP {
+		&__container {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1345px;
+      height: 725px;
+      max-height: 725px;
+      display: flex;
+      border-radius: 20px;
+      position: relative;
+      background-color: rgba(190, 173, 255, 0.1);
+		}
+}
+.container {
+
+  &__left {
+    width:49%;
+    height:100%;
+    background-image: url(../../../img/section1/PopUpDesctopImg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &__right {
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__dagger {
+    position: absolute;
+    width:25px;
+    height:25px;
+    top:15px;
+    right:15px;
+  }
+}
+.left {
+
+  &__information {
+    width:100%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  &__header {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__text {
+  }
+
+  &__form {
+    width:460px;
+  }
+
+  &__underForm {
+    height: 26px;
+    width: 456px;
+    font-family: "Gilroy-Light", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(212, 201, 253, 0.6);
+  }
+}
+.information {
+
+  &__header {
+    height: 165px;
+    width: 499px;
+    font-family: 'Orbitron',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__text {
+    margin-top: 35px;
+    height: 78px;
+    width: 462px;
+    font-family: "Gilroy-Light", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+
+  }
+}
+.right {
+
+		&__header {
+      height: 38px;
+      width: 263px;
+      font-family: 'Orbitron',sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: left;
+		}
+
+		&__text {
+      margin-top: 15px;
+      height: 52px;
+      width: 462px;
+      font-family: "Gilroy-Light", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      
+
+		}
+}
+.hyperContacts {
+}
+.form {
+
+		&__name {
+		}
+
+		&__number {
+		}
+
+		&__email {
+		}
+}
+.button {
+}
+.underLine {
+ color: rgba(212, 201, 253, 0.6);
+}
+@media screen and (max-width: 1160px) {
+  .popUp {
+    padding: 5px;
+  }
+  .popUP__container {
+    transform: scale(0.80);
+    min-width: 1010px;
+  }
+}
+  @media screen and (max-width: 850px) {
+    .popUp {
+      width: 100%;
+      min-width: 345px;
+      height: 100%;
+      flex-direction: column;
+    }
+    .popUP__container {
+      height: 786px;
+      width: 345px;
+      min-width: 345px;
+      transform: scale(1.05);
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+
+      &__left {
+        width:100%;
+        height:42%;
+        background-image: url(../../../img/section1/PopUpDesctopImg.png);
+        background-size:cover;
+      }
+    
+      &__right {
+        padding-top: 35px;
+        width:100%;
+        height:58%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      &__dagger {
+        top: 15px;
+        right: 155px;
+      }
+    }
+    .left {
+      &__information {
+        width:100%;
+        height:100%;
+        padding-top: 40px;
+      }
+      &__header {
+        font-family: "Orbitron", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      &__form {
+        width:300px;
+      }
+      &__underForm {
+        height: 10px;
+        width: 341px;
+        font-family: "Gilroy-Light", sans-serif;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0.02em;
+        text-align: center;   
+        margin-top: 15px;  
+      }
+    }
+    .information {
+
+      &__header {
+        height: 114px;
+        width: 320px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    
+      &__text {
+        margin-top: 35px;
+        height: 63px;
+        width: 319px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        text-align: left;
+      }
+    }
+    .form {
+
+      &__name {
+        width:300px;
+        height:60px;
+      }
+  
+      &__number {
+        width:300px;
+        height:60px;
+      }
+  
+      &__email {
+        width:300px;
+        height:60px;
+      }
+  }
+  .right {
+
+		&__header {
+      height: 25px;
+      width: 300px;
+      font-family: 'Orbitron',sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+		}
+
+		&__text {
+      height: 42px;
+      width: 300px;
+      font-family: "Gilroy-Light", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      text-align: left;
+		}
+}
+  #button2{
+    height: 58px;
+    width: 300px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+}
+.none{
+  display: none;
+}

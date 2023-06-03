@@ -1,0 +1,536 @@
+.animations{
+  max-width:1160px;
+  max-height:6940px;
+  width:1160px;
+  height:6940px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+.firstSectionAnimations{
+  width:100%;
+  height:917px; 
+  position:relative;
+  margin-bottom: 100px;
+}
+.secondSectionAnimations{
+  width: 100%;
+  height: 2220px; 
+}
+.secondSectionAnimations__part1{
+    width: 100%;
+    height: 568px; 
+    position:relative;
+}
+.secondSectionAnimations__part2{
+  width: 100%;
+  height: 568px;
+  position:relative;
+  margin-bottom: 250px;
+}
+.secondSectionAnimations__part3{
+  width: 100%;
+  height: 568px; 
+  position:relative;
+}
+.thirdSectionAnimations{
+  width: 100%;
+  height: 1720px;
+}
+.thirdSectionAnimation__part1{
+  width: 100%;
+    height: 568px;
+    margin-top: 300px;
+    position: relative;
+}
+.fourthSectionAnimations{
+  width: 100%;
+  height: 1650px;
+}
+.fourthSectionAnimations__part1{
+  margin-top: 200px;
+  margin-bottom: 500px;
+  width: 100%;
+  height: 368px;
+  position: relative;
+}
+.fourthSectionAnimations__part2{
+  width: 100%;
+  height: 368px;
+  position: relative;
+}
+.footerSectionAnimations{
+  width: 100%;
+  height: 752px;
+}
+.footerSectionAnimations__part1{
+  position: relative;
+  width: 100%;
+  height:300px;
+  top:300px;
+}
+   
+   .firstSectionAnimations  .balls{
+     top: 42%;
+     width: 100%;
+     height: 768px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .firstSectionAnimations   .balls > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .firstSectionAnimations   div.aBall{
+     background-image: url(../../../img/Lights/MainBallS1.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .firstSectionAnimations   div.bBall{
+     background-image: url(../../../img/Lights/SmallBallS1.svg);
+     background-size: 350px 350px;
+     width: 350px;
+     height: 350px;
+   }
+   .firstSectionAnimations   div.cBall{
+     background-image: url(../../../img/Lights/WideBallS1.svg);
+     background-size: 680px 420px;
+     width: 680px;
+     height: 420px;;
+   }
+   .firstSectionAnimations div.dBall{
+     background-image: url(../../../img/Lights/OvalBallS1.svg);
+     background-size: 336px 270px;
+     width: 336px;
+     height: 270px;;
+   }
+/* ============================================================= */
+.secondSectionAnimations__part1  .ballsS2{
+     top: 50%;
+     width: 100%;
+     height: 568px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .secondSectionAnimations__part1   .ballsS2 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .secondSectionAnimations__part1   div.aBallS2{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .secondSectionAnimations__part1   div.bBallS2{
+     background-image: url(../../../img/Lights/WideBallS2.svg);
+     background-size: 550px 350px;
+     width: 550px;
+     height: 350px;
+   }
+   .secondSectionAnimations__part1  .ballsS2 > div:hover{
+     transform: scale(1.1);
+   }
+/* ============================================================= */
+   .secondSectionAnimations__part2  .ballsS3{
+     top: 50%;
+     width: 100%;
+     height: 568px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .secondSectionAnimations__part2   .ballsS3 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .secondSectionAnimations__part2   div.aBallS3{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .secondSectionAnimations__part2   div.bBallS3{
+     background-image: url(../../../img/Lights/WideBallS2.svg);
+     background-size: 550px 350px;
+     width: 550px;
+     height: 350px;
+   }
+   .secondSectionAnimations__part2  .ballsS3 > div:hover{
+     transform: scale(1.1);
+   }
+/* ============================================== */
+.secondSectionAnimations__part3  .ballsS4{
+     top: 60%;
+     width: 100%;
+     height: 568px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .secondSectionAnimations__part3   .ballsS4 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .secondSectionAnimations__part3   div.aBallS4{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 830px;
+     width: 600px;
+     height: 830px;
+   }
+   .secondSectionAnimations__part3   div.bBallS4{
+     background-image: url(../../../img/Lights/SmallBallS4.svg);
+     background-size: 350px 550px;
+     width: 350px;
+     height: 550px;
+   }
+   .secondSectionAnimations__part3   div.cBallS4{
+    background-image: url(../../../img/Lights/LittleBallS4.svg);
+    background-size: 430px 430px;
+    width: 430px;
+    height: 430px;
+  }
+  .secondSectionAnimations__part3  .ballsS4 > div:hover{
+     transform: scale(1.1);
+   }
+/* SECTION 5 */
+.thirdSectionAnimations  .ballsS5{
+     top: 50%;
+     width: 100%;
+     height: 568px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .thirdSectionAnimations   .ballsS5 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .thirdSectionAnimations   div.aBallS5{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .thirdSectionAnimations  div.bBallS5{
+     background-image: url(../../../img/Lights/WideBallS2.svg);
+     background-size: 550px 350px;
+     width: 550px;
+     height: 350px;
+   }
+   .thirdSectionAnimations  .ballsS5 > div:hover{
+     transform: scale(1.1);
+   }
+   /* SECTION 5 */
+   .third__section .containerBallS6{
+    z-index: 1;
+   }
+.third__section  .ballsS6{
+     top: 70%;
+     width: 100%;
+     height: 568px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .third__section   .ballsS6 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .third__section   div.aBallS6{
+     background-image: url(../../../img/Lights/MainS6.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .third__section  div.bBallS6{
+     background-image: url(../../../img/Lights/SmallS6.svg);
+     background-size: 250px 350px;
+     width: 250px;
+     height: 350px;
+   }
+   .third__section  .ballsS6 > div:hover{
+     transform: scale(1.1);
+   }
+   /* ============================================================= */
+  
+   .fourthSectionAnimations__part1  .ballsS7{
+     top: 20%;
+     width: 100%;
+     height: 368px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .fourthSectionAnimations__part1  .ballsS7 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .fourthSectionAnimations__part1  div.aBallS7{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .fourthSectionAnimations__part1  div.bBallS7{
+     background-image: url(../../../img/Lights/WideBallS2.svg);
+     background-size: 550px 350px;
+     width: 550px;
+     height: 350px;
+   }
+   .fourthSectionAnimations__part1 .ballsS7 > div:hover{
+     transform: scale(1.1);
+   }
+     /* ============================================================= */
+     .fourthSectionAnimations__part2  .ballsS8{
+     top: 70%;
+     width: 100%;
+     height: 368px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .fourthSectionAnimations__part2  .ballsS8 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .fourthSectionAnimations__part2  div.aBallS8{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .fourthSectionAnimations__part2  div.bBallS8{
+     background-image: url(../../../img/Lights/WideBallS2.svg);
+     background-size: 550px 350px;
+     width: 550px;
+     height: 350px;
+   }
+   .fourthSectionAnimations__part2 .ballsS8 > div:hover{
+     transform: scale(1.1);
+   }
+      /* Section 9 ======= */
+
+     .footerSectionAnimations__part1  .ballsS9{
+     top: 25%;
+     width: 100%;
+     height: 368px;
+     transform: translate(0%, -50%);
+     position: absolute;
+   }
+   .footerSectionAnimations__part1  .ballsS9 > div{
+     position: absolute;
+     top: 0;
+     opacity: 0.8;
+     border-radius: 50%;
+     z-index: 0;
+     cursor: pointer;
+     transition: all 600ms ease-out;
+     background-blend-mode: multiply;
+   }
+   .footerSectionAnimations__part1 div.aBallS9{
+     background-image: url(../../../img/Lights/MainBallS2.svg);
+     background-size: 600px 600px;
+     width: 600px;
+     height: 600px;
+   }
+   .footerSectionAnimations__part1 div.bBallS9{
+     background-image: url(../../../img/Lights/WideBallS2.svg);
+     background-size: 550px 350px;
+     width: 550px;
+     height: 350px;
+   }
+   .footerSectionAnimations__part1 .ballsS9 > div:hover{
+     transform: scale(1.1);
+   }
+   @media screen and (max-width:1160px){
+    .animations{
+      max-width:850px;
+      width:850px;
+      height:5700px;
+    }
+    .firstSectionAnimations{
+      margin-bottom: 0px;
+    }
+    .secondSectionAnimations{
+      height:1700px
+    }
+    .secondSectionAnimations__part2{
+      margin-bottom: 0px;
+    }
+    .thirdSectionAnimations {
+      height: 869px;
+    }
+    .fourthSectionAnimations__part1 {
+      margin-top: 520px;
+      margin-bottom:0px;
+    }
+   }
+   @media screen and (max-width:850px){
+    .animations{
+
+      width: 100%;
+      height: 5765px;
+      max-height: 5765px;
+      overflow: hidden;
+       }
+       .thirdSectionAnimation__part1{
+         margin-top: 975px;
+       }
+       .fourthSectionAnimations__part1{
+         margin-top: 650px;
+       }
+       
+    .firstSectionAnimations  .balls{
+      top:0;
+      left:-10%;
+      transform: scale(0.7);
+    }
+   .firstSectionAnimations   div.aBall{
+    transform: scale(0.7);
+  }
+.firstSectionAnimations   div.bBall{
+  transform: scale(0.7);
+  }
+.firstSectionAnimations   div.cBall{
+  transform: scale(0.7);
+  }
+.firstSectionAnimations div.dBall{
+  transform: scale(0.7);
+  }
+  .secondSectionAnimations  .ballsS2{
+    transform: scale(0.7);
+    left:-20%;
+    top:0;
+  }
+  .secondSectionAnimations   div.aBallS2{
+    transform: scale(0.7);
+  }
+  .secondSectionAnimations   div.bBallS2{
+    transform: scale(0.7);
+  }
+  .secondSectionAnimations  .ballsS3{
+    transform: scale(0.7);
+    top:35%;
+    left:-24%;
+  }
+  .secondSectionAnimations   div.aBallS3{
+    transform: scale(0.7);
+  }
+  .secondSectionAnimations   div.bBallS3{
+    transform: scale(0.7);
+  }
+  .secondSectionAnimations  .ballsS4{
+    transform: scale(0.7);
+    top:70%;
+    left:-20%;
+  }
+  .secondSectionAnimations   div.aBallS4{
+    transform: scale(0.7);
+  }
+  .secondSectionAnimations   div.bBallS4{
+    transform: scale(0.7);
+  }
+  .secondSectionAnimations   div.cBallS4{
+    transform: scale(0.7);
+ }
+   .thirdSectionAnimations  .ballsS5{
+    transform: scale(0.7);
+    top:10%;
+    left:-20%;
+    z-index:-1;
+   }
+   .thirdSectionAnimations   div.aBallS5{
+    transform: scale(0.7);
+  }
+  .thirdSectionAnimations  div.bBallS5{
+    transform: scale(0.7);
+  }
+  .thirdSectionAnimations  .ballsS6{
+    transform: scale(0.7);
+    left:-20%;
+    top:60%;
+  }
+  .thirdSectionAnimations   div.aBallS6{
+    transform: scale(0.7);
+  }
+  .thirdSectionAnimations  div.bBallS6{
+    transform: scale(0.7);
+  }
+  .fourthSectionAnimations  .ballsS7{
+    transform: scale(0.7);
+    left:-20%;
+    top:5%;
+  }
+  .fourthSectionAnimations  div.aBallS7{
+    transform: scale(0.7);
+  }
+  .fourthSectionAnimations  div.bBallS7{
+    transform: scale(0.7);
+  }
+   .fourthSectionAnimations  .ballsS8{
+    transform: scale(0.7);
+    left:-20%;
+    top:55%;
+  }
+  .fourthSectionAnimations  div.aBallS8{
+    transform: scale(0.7);
+  }
+  .fourthSectionAnimations  div.bBallS8{
+    transform: scale(0.7);
+  }
+  .footerSectionAnimations  .ballsS9{
+      left:-20%;
+      transform: scale(0.7);
+      top:-10%;
+   }
+   .footerSectionAnimations  div.aBallS9{
+    transform: scale(0.7)
+  }
+  .footerSectionAnimations  div.bBallS9{
+    transform: scale(0.7)
+  }
+}

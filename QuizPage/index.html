@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="./Styles/style.css">
+   <title>Quiz</title>
+</head>
+
+<body>
+   <div class="content__wrapper">
+      <div class="animations">
+        <div class="firstSectionAnimations" >
+            <div class="balls">
+              <div id="ball_1" class='aBall crystal'></div>
+              <div id="ball_2" class='bBall crystal'></div>
+              <div id="ball_3" class='cBall crystal'></div>
+              <div id="ball_4" class='dBall crystal'></div>
+            </div>
+        </div>
+
+      </div>
+    </div> 
+   <div class="wrapper">
+      <div class="first-section">
+         <div class="first-section__upper-part upper__part">
+            <a name="aboutProject"></a>
+            <div class="upper-part__header-container header-container">
+               <div class="header-container__header header">
+
+                  <img class="header__logo" alt="logo" src="./img/VectorLogo.svg">
+                  <img class="header__name" alt="name" src="./img/Name.svg">
+                  <div class="header__menu">
+                     <div class="menu__phoneLogo">
+                        <img class="phoneLogo__logo" alt="logo" src="./img/VectorLogo.svg">
+                        <img class="phoneLogo__name" alt="logoName" src="./img/Name.svg">
+                     </div>
+                     <div class="menu__burger">
+                        <div class="burger__burgerLine">
+                           <img src="./img/section1/Burger/1LineWide.svg" alt="line">
+                           <img src="./img/section1/Burger/Circle.svg" alt="line">
+                        </div>
+                        <div class="burger__burgerLine">
+                           <img src="./img/section1/Burger/WhiteCircle.svg" alt="line">
+                           <img src="./img/section1/Burger/1LineWide.svg" alt="line">
+                        </div>
+                        <div class="burger__burgerLine">
+                           <img src="./img/section1/Burger/1LineWide.svg" alt="line">
+                           <img src="./img/section1/Burger/Circle.svg" alt="line">
+                        </div>
+                     </div>
+                     <div class="menu__hypers">
+                        <a href="../index.html">About the project</a>
+                        <a href="../index.html">Why us</a>
+                        <a href="../index.html">For users</a>
+                        <a href="../index.html">Lightpaper</a>
+                        <a href="../index.html">FAQ</a>
+                        <a href="../index.html">Contacts</a>
+                     </div>
+                     <div class="menu__closeArrow">
+
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+            <div class="upper-part__main">
+               <div class="arrowBackHome">
+               </div>
+               <div class="escape-popUp">
+                  <div class="escape-popUp_info">
+                     <div class="escape-popUp_info_text1">Complete the test now?</div>
+                     <div class="escape-popUp_info_text2">(you will lose all answers)</div>
+                  </div>
+                   <a href="../index.html" class="escape-popUp_button_yes">Yes</a>
+               </div>
+                <div id="quiz" class="quiz-section">
+                  <div class="test-container">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">How often are you ready to travel?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Very often" />
+                        <input class="simple_input" type="button" value="Rarely" />
+                        <input class="simple_input" type="button" value="Sometimes" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Do you enjoy being a part of nightlife or music festivals?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Do you enjoy living with pets?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Do you like modern trends in clothing style and music?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Can you enjoy outdoor walks, hiking, or camping?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Can you enjoy outdoor walks, hiking, or camping?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Are cleanliness and order important to you?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-container">
+                        <div class="icon-circle"></div>
+                        <div class="inner-icon"></div>
+                     </div>
+                     <p class="icon-coment">lifestyle</p>
+                     <p class="question-header">Are adventure and vibrant emotions more important than calmness and stability?
+                     </p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Are adventure and vibrant emotions more important than calmness and stability?
+                     </p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Do you often feel lonely?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">How important is learning in your life?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Does the idea of having you language practice with your perfect people
+                        facilitated by external challenges thrill you?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Do you like taking on the challenges that push you to step out of your comfort
+                        zone?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Would you be interested in community gatherings for language practice and having
+                        fun togethe as a group of peopler?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Are you ready to have your life changed due to mastering the new lanuage?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-smart-container">
+                        <div class="icon-smart-circle"></div>
+                        <div class="inner-smart-icon"></div>
+                     </div>
+                     <p class="icon-coment">smart</p>
+                     <p class="question-header">Have you pursued a degree after hih school at a college or university?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">Have you pursued a degree after hih school at a college or university?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">Do you have / would you like to have children in the foreseeable future?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">Which factor do you believe is decisive for a happy relationship?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">Have you ever cheated on your partners with whom you were in a relationship?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">Is it okay to travel separately from your partner for vacation while in a
+                        relationship?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">It it easy for you to be the first to apologize in a relationship?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">Which of the declarations of friendship do you like most?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Let’s do everything together forever" />
+                        <input class="simple_input" type="button" value="I will never offend" />
+                        <input class="simple_input" type="button" value="You are the best person I have met" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-relatioships-container">
+                        <div class="icon-relationships-circle"></div>
+                        <div class="inner-relationships-circle"></div>
+                     </div>
+                     <p class="icon-coment">relatioships</p>
+                     <p class="question-header">What kind of person would you find most attractive?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Successful" />
+                        <input class="simple_input" type="button" value="Smart" />
+                        <input class="simple_input" type="button" value="Beautiful" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Is it important for you to respect and celebrate important dates and holidays
+                        with your loved ones?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Do you smoke cigarettes, apes, hookah, e-cigarettes?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+         
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Do you drink alcohol?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Do you drink coffee?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Do you usually wake up early?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Do you do sports regularly and systematically?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+         
+                  <div class="test-container none">
+                     <div class="icon-habits-container">
+                        <div class="icon-habits-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">habits</p>
+                     <p class="question-header">Do you like fast food?</p>
+                     <form>
+                        <input class="simple_input" type="button" value="Yes" />
+                        <input class="simple_input" type="button" value="No" />
+                        <input class="simple_input" type="button" value="Maybe" />
+                     </form>
+                  </div>
+         
+         
+         
+                  <div class="test-container none">
+                     <div class="icon-general-container">
+                        <div class="icon-gerenal-circle"></div>
+                        <div class="inner-habits-icon"></div>
+                     </div>
+                     <p class="icon-coment">general</p>
+                     <div class='d-flex-column'>
+                        <input class="text_input" type="text" placeholder="What is your name?" />
+                        <input class="text_input" type="text" placeholder="Your email address" />
+                        <input class="text_input" type="number" placeholder="Your phone number" />
+                     </div>
+                     </p>
+                  </div>
+                  <div class="test-container none">
+                     <div class="icon-language-container">
+                        <div class="icon-language-circle"></div>
+                        <div class="inner-language-icon"></div>
+                     </div>
+                     <p class="icon-coment">language</p>
+                     <p class="question-header">What language(s) do you want to improve?</p>
+                     <form class="multiple_choice_form">
+                        <input type="button" value="English" onclick="setEnglish()" />
+                        <input type="button" value="Spanish" onclick="setSpanish()" />
+                        <input type="button" value="French" onclick="setFrench()" />
+                        <input type="button" value="Polish" onclick="setPolish()" />
+                     </form>
+         
+         
+                  </div>
+               </div>
+               <div class="footer_test">
+                  <button class="back unvisible">
+                     <img src="./img/quiz/arrowback.svg" alt="foto">
+                     <p>Back</p>
+                  </button>
+                  <div class="page_number"></div>
+                  <button class="next">
+                     <p>Forward</p>
+                     <img src="./img/quiz/arrowforward.svg" alt="foto">
+                  </button>
+               </div>
+               <div class="user-security">
+                  <div class="empty-field-warning none">choose an answer </div>
+                  other users won’t see your answers
+               </div>
+               <div class="final_block">
+                  <div  class="final_block-animation">
+                      <img src="../img/FluenzoAbstract.gif">
+                     </div>
+                  <div class="final_block-header">Congratulations! </div>
+                  <div class="final_block-text1">Happy to get to know you, dear [Emily]! </div>
+                  <div class="final_block-text2">Very soon you will join our big family and meet your Perfect Matches to become fluent in [English] [and German] together!
+                  </div>
+                  <div class="final_block-location__sprites">
+                     <a href="https://www.instagram.com/fluenzo.official/"><a href="https://www.instagram.com/fluenzo.official/"><img src="./img/footer/Inst.svg" alt="InstIcon"></a></a>
+                     <a href="https://www.facebook.com/profile.php?id=100087072560450"><a href="https://www.facebook.com/profile.php?id=100087072560450"><img src="./img/footer/FaceBook.svg" alt="faceBookIcon"></a></a>
+                     <a href="http://t.me/fluenzo_friendlybot"><img src="./img/footer/Telegram.svg" alt="TelegramIcon"></a>
+                     <a href="https://twitter.com/Fluenzoofficial"><a href="https://twitter.com/Fluenzoofficial"><img src="./img/footer/Twitter.svg" alt="twitterIcon"></a></a>
+                     <a href="https://www.linkedin.com/company/fluenzo"><a href="#"><img src="./img/footer/Linkedin.svg" alt="linkedibIcon"></a></a>
+                     <a href="https://www.youtube.com/channel/UC1rnZsghdXpbePsZiEwG3Bg/about"><a href="https://www.youtube.com/channel/UC1rnZsghdXpbePsZiEwG3Bg/about"><img src="./img/footer/Youtube.svg" alt='youtubeIcon'></a></a>
+                   </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+
+   </div>
+   </div>
+   <script src="./Js/quiz.js"></script>
+   <script src="../Js/randomLights.js"></script>
+   <script src="./Js/index.js"></script>
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,469 @@
+.footer {
+    height: 555px;
+    width: 100%;
+    margin-top:210px;
+
+    &__upper-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+
+    &__lower-part {
+        display: flex;
+    }
+}
+
+.upper-part {
+
+    &__firstImg {}
+
+    &__SecondImg {
+        margin-top: 20px;
+    }
+
+    &__text {
+        margin-top: 30px;
+        height: 23px;
+        width: 234px;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+.lower-part {
+    &__left {
+        width: 33.33%;
+    }
+
+    &__center {
+        width: 33.33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__right {
+        width: 33.33%;
+        padding-top: 65px;
+    }
+}
+
+.left {
+
+    &__header {
+        height: 25px;
+        width: 133px;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        height: 76px;
+        width: 243px;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 45px;
+    }
+
+    &__buttons {
+        display: flex;
+    }
+}
+
+.buttons {
+
+    &__buttonPlayMarket {
+        height: 43px;
+        width: 171px;
+        border: 1px solid white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        box-shadow: 0px 0px 5px white,
+            inset 0px 0px 5px white;
+        margin-right: 5px;
+    }
+
+    &__buttonAppStore {
+        height: 43px;
+        width: 171px;
+        border: 1px solid white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        box-shadow: 0px 0px 5px white,
+            inset 0px 0px 5px white;
+            margin-right:10px;
+    }
+}
+
+.buttonPlayMarket {
+
+    &__img {
+        width: 20px;
+        height: 20px;
+        margin-right:15px;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gilroy-Light', sans-serif;
+    }
+}
+
+.buttonAppStore {
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gilroy-Light', sans-serif;
+    }
+
+    &__img {
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+    }
+}
+
+.container {
+
+    &__text {
+        font-size: 8px;
+    }
+
+    &__spanText {
+        font-size: 15px;
+    }
+}
+
+.center {
+
+    &__location {
+        margin-bottom: 25px;
+    }
+
+}
+
+.location {
+
+    &__p1 {
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    &__p2 {
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 55px;
+    }
+
+    &__sprites {
+        display: flex;
+        width: 200px;
+        justify-content: space-evenly;
+    }
+}
+
+.right {
+
+    &__part1 {
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 140px;
+    }
+
+    &__part2 {
+        display: flex;
+        justify-content: flex-end;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: rgba(212, 201, 253, 0.6);
+        text-decoration: none;
+        width: 320px;
+
+    }
+}
+
+.part1 {
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-right: 45px;
+
+    }
+    &__left a{
+text-decoration: none;
+color:white;
+    }
+        &__right a{
+            text-decoration: none;
+            color:white;
+                }
+    
+    &__right {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+.part2 {
+
+    &__left {
+        text-decoration: none;
+        color: rgba(212, 201, 253, 0.6);
+        margin-right: 20px;
+    }
+
+    &__center {
+        text-decoration: none;
+        color: rgba(212, 201, 253, 0.6);
+    }
+
+    &__right {}
+
+}
+
+@media screen and (max-width:1160px) {
+    .buttonPlayMarket {
+
+        &__img {
+            margin-right:5px;
+        }
+    }
+    .footer {
+        height: 555px;
+        width: 100%;
+        margin-left: -19px;
+        transform: scale(0.9);
+    }
+    .part1 {
+        &__right a{
+            text-decoration: none;
+            color:white;
+                }
+    }
+
+}
+
+@media screen and (max-width:850px) {
+
+    .footer {
+        height: 765px;
+        width: 100%;
+        margin-left: 0px;
+        transform: scale(1);
+        margin-top: 120px;
+
+        &__upper-part {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        &__lower-part {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+    }
+
+    .upper-part {
+
+        &__firstImg {
+            height: 68px;
+            width: 87px;
+        }
+
+        &__SecondImg {
+            width: 89px;
+            height: 20px;
+            margin-top: 10px;
+        }
+
+        &__text {
+            margin-top: 20px;
+            font-size: 21px;
+            width: 279px;
+        }
+    }
+
+    .lower-part {
+        &__left {
+            width: 100%;
+            margin-bottom: 200px;
+        }
+
+        &__center {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__right {
+            width: 100%;
+            padding-top: 10px;
+            position: absolute;
+            top: 160px;
+            display: flex;
+
+        }
+    }
+
+    .left {
+
+        &__header {
+            height: 25px;
+            width: 180px;
+            font-family: "Orbitron", sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        &__text {
+            height: 76px;
+            width: 375px;
+            font-family: "Gilroy-Light", sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 45px;
+            margin-top: 20px;
+        }
+
+        &__buttons {
+            display: none;
+        }
+    }
+
+    .right {
+
+        &__part1 {
+            display: flex;
+            margin-bottom: 50px;
+            margin-left: 5px;
+            flex-direction: column;
+        }
+
+        &__part2 {
+            justify-content: flex-start;
+            font-size: 18px;
+            line-height: 21px;
+            width: 175px;
+            flex-direction: column;
+            margin-left: 80px;
+            margin-top: 67px;
+
+        }
+    }
+
+    .part1 {
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            font-family: "Gilroy-Light", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-right: 45px;
+            margin-bottom: 10px;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            font-family: "Gilroy-Light", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        &__right a{
+            text-decoration: none;
+            color:white;
+                }
+    }
+
+    .part2 {
+
+        &__left {
+            text-decoration: none;
+            color: rgba(212, 201, 253, 0.6);
+        }
+
+        &__center {
+            text-decoration: none;
+            color: rgba(212, 201, 253, 0.6);
+        }
+
+        &__right {}
+    }
+
+    .location {
+        &__p1 {}
+
+        &__p2 {}
+
+        &__sprites {
+            display: flex;
+            width: 350px;
+            justify-content: space-evenly;
+        }
+    }
+}

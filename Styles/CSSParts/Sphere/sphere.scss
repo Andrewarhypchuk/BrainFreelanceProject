@@ -1,0 +1,175 @@
+.middleanimation{
+    position: fixed;
+    top: 245px;
+    right: -100px;
+    transition-duration: 1s;
+    z-index: 2;
+    }
+    .middleanimation img{
+        height:450px;
+        min-height: 450px;
+        min-width: 800px;
+        width:800px;  
+        animation-timing-function: ease-in-out;
+    }
+
+    .sphere-second-section{
+        right: 800px;
+        transform: rotate(145deg);
+    }
+    .sphere-third-section{
+        right: 300px;
+        transform: rotate(0deg);
+    }
+    .sphere-fourth-section{
+        right: -200px;
+        transform: rotate(145deg);
+    }
+    .sphere-fifth-section{
+        right: 300px;
+        transform: rotate(0deg);
+    }
+    .sphere-sixth-section{
+        right: 750px;
+        transform: rotate(145deg);
+    }
+    .sphere-seventh-section{
+        right: -50px;
+        transform: rotate(0deg);
+    }
+    @media screen and (max-width:1160px){
+     
+    .sphere-second-section{
+        right: 450px;
+        transform: rotate(145deg);
+    }
+    .sphere-third-section{
+        right: 150px;
+        transform: rotate(0deg);
+    }
+    .sphere-fourth-section{
+        right: -200px;
+        transform: rotate(145deg);
+    }
+    .sphere-fifth-section{
+        right: 150px;
+        transform: rotate(0deg);
+    }
+    .sphere-sixth-section{
+        right: 490px;
+        transform: rotate(145deg);
+    }
+    .sphere-seventh-section{
+        right: -50px;
+        transform: rotate(0deg);
+    }   
+    }
+    //правка по ротації
+    @keyframes rotating {
+        from {
+          -ms-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        to {
+          -ms-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    .mobile__sphere{
+        animation: rotating 20s linear infinite;
+    }
+    .formPopUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(35, 35, 36, 0.4);
+        top: 0px;
+        left: 0px;
+       
+        z-index: 40;
+        position: relative;
+        position: fixed;
+        padding: 30px;
+    }
+      .formPopUp__container{
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        width:500px;
+        height:300px;
+        color:white;
+        border-radius: 30px;
+        background-color: rgba(0,0,0,0.2);
+        font-size: 50px;
+        text-align: center;
+        font-family: "Orbitron", sans-serif;
+        line-height: 1.5;
+        padding-top: 50px;
+        position: relative;
+      }
+      .formPopUp__button{
+        position: absolute;
+        width:70px;
+        height:50px;
+        right: 30px;
+        bottom: 30px;
+        color:white;
+        font-family: "Orbitron", sans-serif;
+        font-size: 40px;
+      }
+      .formPopUpFail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(35, 35, 36, 0.4);
+        top: 0px;
+        left: 0px;
+        z-index: 40;
+        position: relative;
+        position: fixed;
+        padding: 30px;
+    }
+      .formPopUpFail__container{
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        width:500px;
+        height:300px;
+        color:white;
+        border-radius: 30px;
+        background-color: rgba(0,0,0,0.2);
+        font-size: 50px;
+        text-align: center;
+        font-family: "Orbitron", sans-serif;
+        line-height: 1.5;
+        padding-top: 50px;
+        position: relative;
+      }
+      .formPopUpFail__button{
+        position: absolute;
+        width:70px;
+        height:50px;
+        right: 30px;
+        bottom: 30px;
+        color:white;
+        font-family: "Orbitron", sans-serif;
+        font-size: 40px;
+      }
+    @media screen and (max-width:850px){
+        .formPopUp__container{
+            transform: scale(0.6);
+            min-width:500px;
+        }
+        .formPopUpFail__container{
+            min-width:500px;
+          transform: scale(0.6);
+        }
+    }
